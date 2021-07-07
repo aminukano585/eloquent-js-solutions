@@ -1,0 +1,30 @@
+###CHAPTER THREE
+
+#MINIMUM
+function min(a, b) {
+	if(a<b) return a
+	return b
+}
+
+#RECURSION
+function isEven(num) {
+	for(let i=num; i>=0; i-=2) {
+		if(i===0) return true
+		else if (i===1) return false
+	}
+}
+
+#BEAN COUNTING
+function countBs(str) {
+	let count = 0
+	for(let i=0; i<str.length; i++)
+		if(str[i]==='B') count ++
+	return count
+}
+
+function countChar(str, x) {
+	let count = 0
+	for(let i=0; i<str.length; i++)
+		if(str[i]===x) count ++
+	return count
+}

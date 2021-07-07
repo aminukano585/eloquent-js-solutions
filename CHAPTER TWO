@@ -1,0 +1,30 @@
+###CHAPTER TWO
+
+#LOOPING A TRIANGLE
+for(let i=1; i<=7; i++){
+	switch (i) {
+		case 1 : console.log('#'); break;
+		case 2 : console.log('##'); break;
+		case 3 : console.log('###'); break;
+		case 4 : console.log('####'); break;
+		case 5 : console.log('#####'); break;
+		case 6 : console.log('######'); break;
+		case 7 : console.log('#######'); break;
+	}
+}
+
+#FIZZBUZZ
+for(let i=0; i<=100; i++){
+	if(i%3===0 && i%5===0){
+		console.log('FizzBuzz')
+	} else if (i%3===0) {
+		console.log('Fizz')
+	} else if (i%5===0) {
+		console.log('Buzz')
+	} else {
+		console.log(i)
+	}
+}
+
+#CHESSBOARD
+
